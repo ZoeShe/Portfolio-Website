@@ -35,19 +35,19 @@ h2{
     left:0;
 }
 
-.nav-item.dmk{
+.nav-item.dm{
     position: fixed;
     top: calc(50px + 24vh);
     left:0;
 }
 
-.nav-item.sp{
+.nav-item.dp{
     position: fixed;
     top: calc(50px + 36vh);
     left:0;
 }
 
-.nav-item.dm{
+.nav-item.tm{
     position: fixed;
     top: calc(50px + 48vh);
     left:0;
