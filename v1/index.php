@@ -6,7 +6,7 @@
     <div class="nav-item ve"><a href="#video_editing">Video Editing</a></div>
     <div class="nav-item wp"><a href="#website_productions">Website Productions</a></div>
     <div class="nav-item dm"><a href="#digital_marketing">Digital Marketing</a></div>
-    <div class="nav-item dp"><a href="#document_presentation">Document Presentation</a></div>
+    <div class="nav-item rp"><a href="#research_presentations">Research Presentations</a></div>
     <div class="nav-item tm"><a href="#3d_modeling">3D Modeling</a></div>
     <div class="nav-item am"><a href="#artwork_manufacturing">Artwork Manufacturing</a></div>
 </nav>
@@ -24,9 +24,9 @@
     </div>
 </div>
 
-<div class="popup" id="document_presentation">
+<div class="popup" id="research_presentations">
     <div class="popup_container">
-        <?php include("document_presentation.html"); ?>
+        <?php include("research_presentations.html"); ?>
     </div>
 </div>
 

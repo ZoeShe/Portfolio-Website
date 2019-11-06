@@ -10,8 +10,8 @@ body{
     width: 100%;
 }
 
-h2{
-    padding-top: 20px;
+h2,h3{
+    padding-top: 30px;
 }
 
 .nav-item{
@@ -41,7 +41,7 @@ h2{
     left:0;
 }
 
-.nav-item.dp{
+.nav-item.rp{
     position: fixed;
     top: calc(50px + 36vh);
     left:0;
