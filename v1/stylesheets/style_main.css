@@ -23,7 +23,7 @@ h2{
     opacity: 0.5;
 }
 
-.nav-item.mg{
+.nav-item.ve{
     position: fixed;
     top: 50px;
     left:0;
@@ -35,33 +35,27 @@ h2{
     left:0;
 }
 
-.nav-item.sp{
+.nav-item.dmk{
     position: fixed;
     top: calc(50px + 24vh);
     left:0;
 }
 
-.nav-item.ec{
+.nav-item.sp{
     position: fixed;
     top: calc(50px + 36vh);
     left:0;
 }
 
-.nav-item.eb{
+.nav-item.dm{
     position: fixed;
     top: calc(50px + 48vh);
     left:0;
 }
 
-.nav-item.dm{
-    position: fixed;
-    top: calc(50px + 60vh);
-    left:0;
-}
-
 .nav-item.am{
     position: fixed;
-    top: calc(50px + 72vh);
+    top: calc(50px + 60vh);
     left:0;
 }
 
@@ -134,5 +128,5 @@ main{
 
 .sample{
     width:100%;
-    height: 100%;
+    filter: drop-shadow(0 0 5px #bbb);
 }

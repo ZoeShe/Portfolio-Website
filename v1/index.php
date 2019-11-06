@@ -3,13 +3,12 @@
 <h1>Welcome to Zoe's Little World!</h1>
 
 <nav>
-    <div class="nav-item mg"><a href="#video_editing">Video Editing</a></div>
+    <div class="nav-item ve"><a href="#video_editing">Video Editing</a></div>
     <div class="nav-item wp"><a href="#website_productions">Website Productions</a></div>
+    <div class="nav-item dmk"><a href="#digital_marketing">Digital Marketing</a></div>
     <div class="nav-item sp"><a href="#strategy_presentations">Strategy Presentations</a></div>
-    <div class="nav-item ec"><a href="#e-commerce_contents">E-commerce Contents</a></div>
-    <div class="nav-item eb"><a href="#exhibition_booths">Exhibition Booths</a></div>
     <div class="nav-item dm"><a href="#3d_modeling">3D Modeling</a></div>
-    <div class="nav-item am"><a href="#apparel_manufacturing">Apparel Manufacturing</a></div>
+    <div class="nav-item am"><a href="#artwork_manufacturing">Artwork Manufacturing</a></div>
 </nav>
 
 
@@ -31,9 +30,9 @@
     </div>
 </div>
 
-<div class="popup" id="e-commerce_contents">
+<div class="popup" id="digital_marketing">
     <div class="popup_container">
-        <?php include("e-commerce_contents.html"); ?>
+        <?php include("digital_marketing.html"); ?>
     </div>
 </div>
 
@@ -49,9 +48,9 @@
     </div>
 </div>
 
-<div class="popup" id="apparel_manufacturing">
+<div class="popup" id="artwork_manufacturing">
     <div class="popup_container">
-        <?php include("apparel_manufacturing.html"); ?>
+        <?php include("artwork_manufacturing.html"); ?>
     </div>
 </div>
 
