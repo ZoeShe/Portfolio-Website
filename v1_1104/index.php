@@ -3,13 +3,13 @@
 <h1>Welcome to Zoe's Little World!</h1>
 
 <nav>
-    <div class="nav-item"><a href="#motion_graphics">Motion Graphics</a></div>
-    <div class="nav-item"><a href="#website_productions">Website Productions</a></div>
-    <div class="nav-item"><a href="#strategy_presentations">Strategy Presentations</a></div>
-    <div class="nav-item"><a href="#e-commerce_contents">E-commerce Contents</a></div>
-    <div class="nav-item"><a href="#exhibition_booths">Exhibition Booths</a></div>
-    <div class="nav-item"><a href="#3d_modeling">3D Modeling</a></div>
-    <div class="nav-item"><a href="#apparel_manufacturing">Apparel Manufacturing</a></div>
+    <div class="nav-item mg"><a href="#motion_graphics">Motion Graphics</a></div>
+    <div class="nav-item wp"><a href="#website_productions">Website Productions</a></div>
+    <div class="nav-item sp"><a href="#strategy_presentations">Strategy Presentations</a></div>
+    <div class="nav-item ec"><a href="#e-commerce_contents">E-commerce Contents</a></div>
+    <div class="nav-item eb"><a href="#exhibition_booths">Exhibition Booths</a></div>
+    <div class="nav-item dm"><a href="#3d_modeling">3D Modeling</a></div>
+    <div class="nav-item am"><a href="#apparel_manufacturing">Apparel Manufacturing</a></div>
 </nav>
 
 
