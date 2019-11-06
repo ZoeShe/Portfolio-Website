@@ -1,0 +1,1 @@
+echo "<?php phpinfo(); ?>" ~/sites/info.php
