@@ -1,6 +1,11 @@
 <?php include("header.html"); ?>
 
 <h1>Welcome to Zoe's Little World!</h1>
+<p style="color: red;"> <strong>I apologize that I am currently renewing this website.
+    My work samples can be found by clicking the links below. <br />
+    I estimate the website can be done in a week.
+    I am sorry for this inconvenience. <br /></strong> 
+</p>
 
 <nav>
     <div class="nav-item ve"><a href="#video_editing">Video Editing</a></div>
