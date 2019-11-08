@@ -1,19 +1,13 @@
 <?php include("header.html"); ?>
 
-<h1>Welcome to Zoe's Little World!</h1>
-<p style="color: red;"> <strong>I apologize that I am currently renewing this website.
-    My work samples can be found by clicking the links below. <br />
-    I estimate the website can be done in a week.
-    I am sorry for this inconvenience. <br /></strong> 
-</p>
-
 <nav>
-    <div class="nav-item ve"><a href="#video_editing">Video Editing</a></div>
-    <div class="nav-item wp"><a href="#website_productions">Website Productions</a></div>
-    <div class="nav-item dm"><a href="#digital_marketing">Digital Marketing</a></div>
-    <div class="nav-item rp"><a href="#research_presentations">Research Presentations</a></div>
-    <div class="nav-item tm"><a href="#3d_modeling">3D Modeling</a></div>
-    <div class="nav-item am"><a href="#artwork_manufacturing">Artwork Manufacturing</a></div>
+    <div class="nav-item am"><a href="#artwork_manufacturing"><img src="img/am.png" alt="Artwork Manufacturing category picture" /></a></div>
+    <div class="nav-item ve"><a href="#video_editing"><img src="img/ve.png" alt="Video Editing category picture"/></a></div>
+    <div class="nav-item wp"><a href="#website_productions"><img src="img/wp.png" alt="Website Productions category pi/cture" /></a></div>
+    <div class="nav-item dm"><a href="#digital_marketing"><img src="img/dm.png" alt="Digital Marketing category picture" /></a></div>
+    <div class="nav-item rp"><a href="#research_presentations"><img src="img/rp.png" alt="Research Present/ations category picture" /></a></div>
+    <div class="nav-item tm"><a href="#3d_modeling"><img src="img/tm.png" alt="3D Modeling category picture" /></a></div>
+
 </nav>
 
 
@@ -58,5 +52,7 @@
         <?php include("artwork_manufacturing.html"); ?>
     </div>
 </div>
+
+
 
 <?php include("footer.html"); ?>
