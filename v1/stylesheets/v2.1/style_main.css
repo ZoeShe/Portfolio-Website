@@ -98,7 +98,7 @@ footer{
     position: fixed;
     left:calc((100% - 2000px)/2);
     bottom: 0;
-    background-image: url(../img/footer.png);
+    background-image: url(../../img/v2.1/footer.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -109,7 +109,7 @@ footer{
     height: 468px;
     left:80px;
     bottom: 120px;
-    background-image: url(../img/social-box.png);
+    background-image: url(../../img/v2.1/social-box.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -143,7 +143,7 @@ footer{
     height: 179px;
     left:232px;
     bottom: 90px;
-    background-image: url(../img/seaweed-1.png);
+    background-image: url(../../img/v2.1/seaweed-1.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -154,7 +154,7 @@ footer{
     height: 152px;
     right:248px;
     bottom: 130px;
-    background-image: url(../img/seaweed-2.png);
+    background-image: url(../../img/v2.1/seaweed-2.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -165,7 +165,7 @@ footer{
     height: 262px;
     right:80px;
     bottom: 140px;
-    background-image: url(../img/seaweed-3.png);
+    background-image: url(../../img/v2.1/seaweed-3.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -187,9 +187,6 @@ footer{
         height: 468px;
         left:calc((100% - 2000px)/2 + 20px);
         bottom: 120px;
-        background-image: url(../img/social-box.png);
-        background-size: contain;
-        background-repeat: no-repeat;
     }
     .seaweed-1{
         position: fixed;
@@ -197,9 +194,6 @@ footer{
         height: 179px;
         left:calc((100% - 2000px)/2 + 232px);
         bottom: 140px;
-        background-image: url(../img/seaweed-1.png);
-        background-size: contain;
-        background-repeat: no-repeat;
     }
     
     .seaweed-2{
@@ -208,9 +202,6 @@ footer{
         height: 152px;
         right:calc((100% - 2000px)/2 + 248px);
         bottom: 180px;
-        background-image: url(../img/seaweed-2.png);
-        background-size: contain;
-        background-repeat: no-repeat;
     }
     
     .seaweed-3{
@@ -219,8 +210,5 @@ footer{
         height: 262px;
         right:calc((100% - 2000px)/2 + 80px);
         bottom: 140px;
-        background-image: url(../img/seaweed-3.png);
-        background-size: contain;
-        background-repeat: no-repeat;
     }
 {

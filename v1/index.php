@@ -1,12 +1,20 @@
+<?php
+header("Expires: Tue, 01 Jan 2000 00:00:00 GMT");
+header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
+?>
+
 <?php include("header.html"); ?>
 
 <nav>
-    <div class="nav-item am"><a href="#artwork_manufacturing"><img src="img/am.png" alt="Artwork Manufacturing category picture" /></a></div>
-    <div class="nav-item ve"><a href="#video_editing"><img src="img/ve.png" alt="Video Editing category picture"/></a></div>
-    <div class="nav-item wp"><a href="#website_productions"><img src="img/wp.png" alt="Website Productions category pi/cture" /></a></div>
-    <div class="nav-item dm"><a href="#digital_marketing"><img src="img/dm.png" alt="Digital Marketing category picture" /></a></div>
-    <div class="nav-item rp"><a href="#research_presentations"><img src="img/rp.png" alt="Research Present/ations category picture" /></a></div>
-    <div class="nav-item tm"><a href="#3d_modeling"><img src="img/tm.png" alt="3D Modeling category picture" /></a></div>
+    <div class="nav-item am"><a href="#artwork_manufacturing"><img src="img/v2.1/am.png" alt="Artwork Manufacturing category picture" /></a></div>
+    <div class="nav-item ve"><a href="#video_editing"><img src="img/v2.1/ve.png" alt="Video Editing category picture"/></a></div>
+    <div class="nav-item wp"><a href="#website_productions"><img src="img/v2.1/wp.png" alt="Website Productions category pi/cture" /></a></div>
+    <div class="nav-item dm"><a href="#digital_marketing"><img src="img/v2.1/dm.png" alt="Digital Marketing category picture" /></a></div>
+    <div class="nav-item rp"><a href="#research_presentations"><img src="img/v2.1/rp.png" alt="Research Present/ations category picture" /></a></div>
+    <div class="nav-item tm"><a href="#3d_modeling"><img src="img/v2.1/tm.png" alt="3D Modeling category picture" /></a></div>
 
 </nav>
 
