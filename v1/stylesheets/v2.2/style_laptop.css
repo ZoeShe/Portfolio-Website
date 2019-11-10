@@ -57,24 +57,28 @@
         position: fixed;
         top: 50px;
         right: 400px;
+        animation-duration: 90s;
     }
         
     .nav-item.ve{
         position: fixed;
         top: calc(50px + 10vh);
         left: 300px;
+        animation-duration: 80s;
     }
         
     .nav-item.wp{
         position: fixed;
         top: calc(50px + 20vh);
         right: 250px;
+        animation-duration: 70s;
     }
         
     .nav-item.dm{
         position: fixed;
         top: calc(50px + 30vh);
         left: 250px;
+        animation-duration: 60s;
     }
         
     .nav-item.rp{
@@ -88,4 +92,5 @@
         top: calc(50px + 50vh);
         left: 350px;
     }
+
 }

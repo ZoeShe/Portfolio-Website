@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media(max-width: 425px) {
+    .hidden{
+        display: none;
+        visibility: hidden;
+    }
+    .main{
+        margin: 0;
+    }
+
+    .description{
+        text-align: left;
+    }
+    
+    .work_sample_group{
+        flex-wrap: wrap;
+        margin:0;
+    }
+    .work_sample{
+        flex-basis: 100%;
+        flex-shrink: 1;
+        flex-grow: 0;
+        margin:0;
+    }
+    footer{
+        width: 900px;
+        height: 171px;
+        position: fixed;
+        left:calc((100% - 900px)/2);
+        bottom: 0;
+    }
+    .social-box{
+        position: fixed;
+        width: 70px;
+        height: 248px;
+        left:20px;
+        bottom:30px;
+    }
+
+    .seaweed-1{
+        display: none;
+        visibility: hidden;
+    }
+    
+    .seaweed-2{
+        display: none;
+        visibility: hidden;
+    }
+    
+    .seaweed-3{
+        display: none;
+        visibility: hidden;
+    }
+
+    .nav-item.am{
+        position: fixed;
+        top: 20px;
+        right: 100px;
+
+    }
+        
+    .nav-item.ve{
+        position: fixed;
+        top: calc(20px + 12vh);
+        left: 50px;
+    }
+        
+    .nav-item.wp{
+        position: fixed;
+        top: calc(20px + 24vh);
+        right: 50px;
+    }
+        
+    .nav-item.dm{
+        position: fixed;
+        top: calc(20px + 36vh);
+        left: 50px;
+    }
+        
+    .nav-item.rp{
+        position: fixed;
+        top: calc(20px + 48vh);
+        right: 50px;
+    }
+        
+    .nav-item.tm{
+        position: fixed;
+        top: calc(20px + 60vh);
+        left: 150px;
+    }
+    @keyframes am{
+        25% {right: calc(100% - 159px); background-image: url(../../img/v2.2/am.png);}
+        26% {right: calc(100% - 159px); background-image: url(../../img/v2.2/am-2.png);}
+        75% {right: 0%; background-image: url(../../img/v2.2/am-2.png);}
+        76% {right: 0%; background-image: url(../../img/v2.2/am.png);}
+    }
+
+    @keyframes ve{
+        35% {left: calc(100% - 126px); background-image: url(../../img/v2.2/ve.png);}
+        36% {left: calc(100% - 126px); background-image: url(../../img/v2.2/ve-2.png);}
+        85% {left: 0%; background-image: url(../../img/v2.2/ve-2.png);}
+        86% {left: 0%; background-image: url(../../img/v2.2/ve.png);}
+    }
+
+    @keyframes wp{
+        25% {right: calc(100% - 201px); background-image: url(../../img/v2.2/wp.png);}
+        26% {right: calc(100% - 201px); background-image: url(../../img/v2.2/wp-2.png);}
+        75% {right: 0%; background-image: url(../../img/v2.2/wp-2.png);}
+        76% {right: 0%; background-image: url(../../img/v2.2/wp.png);}
+    }
+
+    @keyframes dm{
+        45% {left: calc(100% - 141px); background-image: url(../../img/v2.2/dm.png);}
+        46% {left: calc(100% - 141px); background-image: url(../../img/v2.2/dm-2.png);}
+        95% {left: 0; background-image: url(../../img/v2.2/dm-2.png);}
+        96% {left: 0; background-image: url(../../img/v2.2/dm.png);}
+    }
+
+    @keyframes rp{
+        25% {right: calc(100% - 137px); background-image: url(../../img/v2.2/rp.png);}
+        26% {right: calc(100% - 137px); background-image: url(../../img/v2.2/rp-2.png);}
+        75% {right: 0%; background-image: url(../../img/v2.2/rp-2.png);}
+        76% {right: 0%; background-image: url(../../img/v2.2/rp.png);}
+    }
+
+    @keyframes tm{
+        20% {left: calc(100% - 92px); background-image: url(../../img/v2.2/tm.png);}
+        21% {left: calc(100% - 92px); background-image: url(../../img/v2.2/tm-2.png);}
+        80% {left: 0%; background-image: url(../../img/v2.2/tm-2.png);}
+        81% {left: 0%; background-image: url(../../img/v2.2/tm.png);}
+    }
+}
