@@ -5,44 +5,57 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Cats Are Great</title>
-		<style type="text/css">
-		</style>
-	</head>	
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+		<!-- I am aware that Internal CSS is more common for email templates.
+			I am using external style sheet so you can check more easily.-->
+		<!-- I erased type attribute because it's not friendly for W3C checking system. -->
+		<!-- I don't have Myriad and Lucida fonts. I am using a similar free font from Google Fonts -->
+	</head>
+
 	<body>
-		<!-- I am aware that I shouldn't use multiple h1s on one page. It depends on the company coding rules. 
-			For this template, there are 3 highest heading lines, that's the reason I started from h1-->
+		<!-- I am aware that I shouldn't use multiple h1s on one page. 
+			It depends on the company coding rules for email templates.-->
 		<main>
 			<!-- BO section one -->
 			<div class="section one">
 				<h1>Headline 1</h1>
-				<div class="feature top">
-					<h2>Cats Are Great</h2>
-					<p>
-						Going to catch the red dot today going to catch the red dot today where is my slave? 
-						I'm getting hungry find box a little too small and curl up with fur
-					</p>
-					<img src="img/cat-brown.png" alt="A standing cat trying to catch a toy." title="A Picture of A Standing Cat">
-				</div>
-				<div class="feature one">
-					<h2>Feature One</h2>
-					<p>
-						Sleep on keyboard then cats take over the world bite off human's toes lick human with sandpaper tongue ohh,
-						are those your $250 dollar sandals? blep for tickle my belly
-					</p>
-					<img src="img/cat-grey.png" alt="A cat staring at the camera." title="A Picture of Featured Cat One">
-				</div>
-				<div class="feature two">
-					<h2>Feature One</h2>
-					<p>
-						Lemme use that as my litter box yet floof tum, tickle bum, jellybean footies curly toes.
-						Toy mouse squeak roll over
-					</p>
-					<img src="img/cat-grey.png" alt="A cat staring at the camera." title="A Picture of Featured Cat Two">
+				<div class="top">
+					<div class="top-artical">
+						<h2>Cats Are Great</h2>
+						<p>
+							Going to catch the red dot today going to catch the red dot today where is my slave? 
+							I'm getting hungry find box a little too small and curl up with fur
+						</p>
+					</div>
+					<img class="top-img" src="img/cat-brown.png" alt="A standing cat trying to catch a toy." title="A Picture of A Standing Cat">
+				</div>	
+				<div class="section-feature">
+					<div class="feature">
+						<div>
+							<h2>Feature One</h2>
+							<p>
+								Sleep on keyboard then cats take over the world bite off human's toes lick human with sandpaper tongue ohh,
+								are those your $250 dollar sandals? blep for tickle my belly
+							</p>
+						</div>
+						<img src="img/cat-grey.png" alt="A cat staring at the camera." title="A Picture of Featured Cat One">
+					</div>
+					<div class="feature">
+						<div>
+							<h2>Feature Two</h2>
+							<p>
+								Lemme use that as my litter box yet floof tum, tickle bum, jellybean footies curly toes.
+								Toy mouse squeak roll over
+							</p>
+						</div>
+						<img src="img/cat-grey.png" alt="A cat staring at the camera." title="A Picture of Featured Cat Two">
+					</div>
 				</div>
 			</div>
 			<!-- BO section two -->
+			<h1>Headline 2<br />with More Words</h1>
 			<div class="section two">
-				<h1>Headline 2<br />with More Words</h1>
 				<div class="subhead one">
 					<h2>Subhead 1</h2>
 					<p>
@@ -55,14 +68,14 @@
 						Kill a hand yet purr but Gate keepers of hell lie on your belly and purr when you are asleep
 					</p>
 				</div>
-				<div class="subhead three">
+				<div class="subhead-three">
 					<h2>Subhead 3</h2>
 					<p>
 						Or i show my fluffy belly but it's a trap! if you pet it i will tear up your hands. 
 						Sit and stare the fat cat sat on the mat
 					</p>
 				</div>
-				<div class="subhead four">
+				<div class="subhead-four">
 					<h2>Subhead 4</h2>
 					<p>
 						Bat away with paws. Destroy couch chase imaginary buts, run around the house at 4 in the morning peer out window, 
@@ -71,40 +84,39 @@
 				</div>
 			</div>
 			<!-- BO section app -->
-			<div class="section app">
-				<hr />
-				<img src="img/cat-beige.png" alt="A cat on the floor looking up to the camera." title="A Cute Cat Picture">
+			<div class="section-app">
+				<img src="img/cat-beige.png" alt="A cat on the floor looking up to the camera." title="A Cute Cat Picture" />
 				<p>
-					Check out a list of our must-have cat apps.
+					Check out a list of our must-have cat apps.<br />
+					<a href="#" target="_blank" title="Open in New Window">View the Cat collection &gt;</a>
 				</p>
-				<a href="#" target="_blank" title="Open in New Window">View the Cat collection &gt;</a>
-				<hr />
 			</div>
 			<!-- BO section three -->
+			<h1>Headline 3</h1>
 			<div class="section three">
-				<h1>Headline 3</h1>
 				<div class="title one">
 					<h2>Title 1</h2>
 					<p>
 						Chomp, chomp but caticus cuteicus yet mice. Litter kitter kitty litty little kitten 
 						big roar roar feed me chirp at birds but show belly
+						<br />
+						<a href="#" target="_blank" title="Open in New Window">View the guide &gt;</a><br />
+						<a href="#" target="_blank" title="Click to Download">Download in iCat &gt;</a>
 					</p>
-					<a href="#" target="_blank" title="Open in New Window">View the guide &gt;</a>
-					<a href="#" target="_blank" title="Click to Download">Download in iCat &gt;</a>
 				</div>
 				<div class="title two">
 					<h2>Title 2</h2>
 					<p>
-						Or i'm bored inside, let me out i'm lonely outside, let me in i can't make up my mind whether to go
+						Or i'm bored inside, let me out i'm lonely outside, let me in i can't make up my mind whether to go<br />
+						<a href="#" target="_blank" title="Open in New Window">Find more info &gt;</a>
 					</p>
-					<a href="#" target="_blank" title="Open in New Window">Find more info &gt;</a>
 				</div>
 				<div class="title three">
 					<h2>Title 3</h2>
 					<p>
 						You nudge me with your foot?!?! leap into the air in greatest offense! Or follow us on Twitter
 						<!-- modify later -->
-						<a href="#">@CatSupport</a>.
+						<a href="#">@CatSupport</a>.<br />
 						<a href="#">Visit Cat Support &gt;</a>
 					</p>
 				</div>
@@ -112,27 +124,22 @@
 		</main>
 		<!-- BO footer -->
 		<footer>
-			<ul>
-				<li>Link 1</li>
-				<li>Link 2</li>
-				<li>1-800-MY-CATSS</li>
-				<li>Link 3</li>
-			</ul>
-			<hr />
+			<div class="link-container">
+				<ul>
+					<li><a href="#">Link 1</a></li>		
+					<li><a href="#">Link 2</a></li>
+					<li id="catss"><a href="#">1-800-MY-CATSS</a></li>
+					<li><a href="#">Link 3</a></li>
+				</ul>
+			</div>
 			<div class="notice">
 				<p>Some features may not be available for all countries or all areas. 
 					<a href="#" target="_blank" title="Open in New Window">Click here</a> 
-					to see complete lists.
-				</p>
-				<p>
-					TM and &copy; 2016 Company Inc. 123 Main Street, San Francisco, CA 94109.
-				</p>
-				<p>
+					to see complete lists.<br />
+					TM and &copy; 2016 Company Inc. 123 Main Street, San Francisco, CA 94109.<br />
 					<a href="#" title="Open in New Window">All Right Reserved</a> &vert; 
 					<a href="#" title="Open in New Window">Privacy Policy</a> &vert; 
-					<a href="#" title="Open in New Window">My Cat ID</a>
-				</p>
-				<p>
+					<a href="#" title="Open in New Window">My Cat ID</a><br />
 					If you prefer not to receive commercial email from us, or if you've changed your email address, please 
 					<a href="#" title="Click to Unsubscribe">click here</a>
 				</p>
