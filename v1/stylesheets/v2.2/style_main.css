@@ -33,6 +33,10 @@ h2{
     animation: 110s am infinite linear;
 }
 
+video:focus {
+    outline: none; 
+}
+
 @keyframes am{
     25% {right: calc(100% - 159px); background-image: url(../../img/v2.2/am.png);}
     26% {right: calc(100% - 159px); background-image: url(../../img/v2.2/am-2.png);}
@@ -265,7 +269,9 @@ footer{
     padding-right: 20px;
 }
 
-
+video{
+    z-index: 30000 !important; 
+}
 
 @media(min-width: 2000px) {
     footer{
