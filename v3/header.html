@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+<!-- BO META -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="shortcut icon" type="image/gif" href="favicon.gif">
+<meta name="keywords" content="zoe-she, jinwen-she, portfolio, zoe she, jinwen she,">
+<meta name="description" content="Welcome to Zoe's portfolio website. 
+    You can find Zoe's work samples on this website.">
+<meta name="subject" content="Zoe's Website">
+<meta name="copyright" content="Zoe(Jinwen) She 2019-2020">
+<meta name="url" content="http://www.zoe-she.com">
+<meta name="language" content="English">
+<!-- EO META -->
+        
+<!-- BO SCRIPT -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151484483-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-151484483-1');
+</script>
+<!-- EO SCRIPT -->
+    
+<!-- BO CSS -->
+<link rel="stylesheet" href="stylesheets/v3/style_main.css" type="text/css">
+<script src="https://kit.fontawesome.com/f8893af342.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto:300,500&display=swap" rel="stylesheet">
+<!-- EO CSS -->
+
+<title>Zoe's Portfolio</title>
+
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.php"><div class="left-nav logo">ZOE SHE</div></a>
+        <div class="left-nav nav-item">
+            <div><a href="index.php">Favorite Projects <span class="hidden"> <i class="fas fa-chevron-down"></i></span></a></div>
+            <div class="dropdown-content">
+                <div class="sub-nav-item">
+                    <p><a type="button" id="happy" onClick="openProject(this.id);">Happy 123 <span class="hidden"> &lt;</span></a></p>
+                    <p><a type="button" id="roland" onClick="openProject(this.id);">Roland DG Fab12 <span class="hidden"> &lt;</span></a></p>
+                    <p><a type="button" id="rebag" onClick="openProject(this.id);">ReBag <span class="hidden"> &lt;</span></a></p>
+                </div>
+            </div>
+        </div>  
+        <div class="right-nav nav-item">
+            <div><a href="marketing-strategy.php">Marketing Strategy <span class="hidden"> <i class="fas fa-chevron-down"></i></span></a></div>
+            <div class="dropdown-content">
+                <div class="sub-nav-item">
+                    <p><a href="marketing-strategy.php#digital-marketing">Digital Marketing <span class="hidden"> &lt;</span></a></p>
+                    <p><a href="marketing-strategy.php#research-presentation">Research Presentation <span class="hidden"> &lt;</span></a></p>
+                </div>
+            </div>
+        </div>
+        <div class="right-nav nav-item">
+            <div><a href="digital-production.php">Digital Production <span class="hidden"> <i class="fas fa-chevron-down"></i></span></a></div>
+            <div class="dropdown-content">
+                <div class="sub-nav-item">
+                    <p><a href="digital-production.php#video-editing">Video Editing <span class="hidden"> &lt;</span></a></p>
+                    <p><a href="digital-production.php#web-production">Web Production <span class="hidden"> &lt;</span></a></p>
+                </div>
+            </div>
+        </div>
+        <div class="right-nav nav-item">
+            <div><a href="creative-design.php">Creative Design <span class="hidden"> <i class="fas fa-chevron-down"></i></span></a></div>
+            <div class="dropdown-content">
+                <div class="sub-nav-item">
+                    <p><a href="creative-design.php#3d-modeling">3D Modeling <span class="hidden"> &lt;</span></a></p>
+                    <p><a href="creative-design.php#artwork-manufacturing">Artwork Manufacturing <span class="hidden"> &lt;</span></a></p>
+                </div>
+            </div>
+        </div>  
+        <div class="right-nav bar">
+            <div type="button" onClick="openModal();"><i class="fas fa-bars"></i></span></div>
+            <div class="modal" onClick="closeModal();">
+                <div class="modal-button modal-close" type="button" onClick="closeModal();"><i class="fas fa-times"></i></div>
+                <div id="modal-content"></div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="project-modal">
+    <div class="project-modal-button project-modal-close" type="button" onClick="closeProject();"><i class="fas fa-times"></i></div>
+    <div id="project-modal-content"></div>
+</div>
+
+<script src="js/v3/javascript.js"></script>

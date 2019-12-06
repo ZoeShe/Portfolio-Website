@@ -8,6 +8,7 @@
     }
     .main{
         margin: 0;
+        padding-bottom: 100px;
     }
 
     .description{
@@ -24,6 +25,11 @@
         flex-grow: 0;
         margin:0;
     }
+
+    .sample{
+        filter: none;
+    }
+
     footer{
         width: 900px;
         height: 171px;
