@@ -16,17 +16,17 @@
 </p>
 <div class="work_sample_group">
     <div class="work_sample">
-        <video class="sample" controls preload>
+        <video class="sample" poster="media/movie_45r_1.png" controls preload>
             <source src="media/movie_45r_1.mp4" />
         </video>
     </div>
     <div class="work_sample">
-        <video class="sample" controls preload>
+        <video class="sample" poster="media/movie_45r_2.png" controls preload>
             <source src="media/movie_45r_2.mp4" />
         </video>
     </div>
     <div class="work_sample">
-        <video class="sample" controls preload>
+        <video class="sample" poster="media/movie_45r_3.png" controls preload>
             <source src="media/movie_45r_3.mp4" />
         </video>
     </div>
@@ -43,7 +43,7 @@
 </p>
 <div class="work_sample_group">
     <div class="work_sample">
-        <video class="sample" controls preload>
+        <video class="sample" poster="media/movie_rdg_1.png" controls preload>
             <source src="media/movie_rdg_1.mp4" />
         </video>
     </div>
@@ -84,7 +84,7 @@
     This is a Wordpress-based website. I built the website from sketch, photo editing and markup language coding.<br /><br />
     <img style="width: 20px; height: 20px; position: relative; top: 4px;" src="left-arrow.gif" />
     Website link: <a title="click to visit 45r's branding site in new window" 
-    target="_blank" href="https://www.45r-usa.com">45r-usa.com</a>
+    target="_blank" href="http://www.45r-usa.com">45r-usa.com</a>
     <img style="width: 20px; height: 20px; position: relative; top: 4px;" src="right-arrow.gif" />
 </p>
 <div class="work_sample_group">

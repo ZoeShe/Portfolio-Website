@@ -8,7 +8,7 @@
 <p class="description">Weekly newsletters made for 45R USA to promote new products and seasonal events through MailChimp. 
     Picture 1 was the email template to promote a Takoyaki experience in retail stores. 
     Customers could eat home-made Takoyaki while checking the new products in store.
-    Picture 2 as the email template to promote "Buy Denim Jeans, Get a Denim Bag on January 23rd" event. <br /><br />
+    Picture 2 was the email template to promote "Buy Denim Jeans, Get a Denim Bag on January 23rd" event ("Happy 123" event). <br /><br />
     <a title="click to open pop-up window" type="button" onClick="openProject('happy');">
         <img style="width: 20px; height: 20px; position: relative; top: 4px;" src="left-arrow.gif" /> 
          Check "Happy 123" Project
@@ -23,8 +23,7 @@
 </div>
 <h3>Public Relations</h3>
 <p class="description">Exhibition marketing plan designed for Roland DG China including 
-    timeline scheduling (picture 1), audience targeting (picture 2), approach strategy (picture 3), and visitor experience route design (picture 4).
-    I directed booth design from 3D modeling to onsite construction.<br /><br />
+    timeline scheduling (picture 1), audience targeting (picture 2), approach strategy (picture 3), and visitor experience route design (picture 4).<br /><br />
     <a title="click to open pop-up window" type="button" onClick="openProject('roland');">
         <img style="width: 20px; height: 20px; position: relative; top: 4px;" src="left-arrow.gif" /> 
          Check "Roland DG Fab12" Project 
@@ -54,6 +53,9 @@
 <h3>Cross Media Advertising</h3>
 <p class="description">Banners, posts, videos made for Instagram, YouTube, newsletters 
     and website advertisement for events including seasonal sales and holiday specials.<br /><br />
+    <img style="width: 20px; height: 20px; position: relative; top: 4px;" src="left-arrow.gif" /> 
+    <a title="click to open in this window" href="marketing-strategy.php" target="_blank">Check Marketing Strategy Work Samples</a>
+    <img style="width: 20px; height: 20px; position: relative; top: 4px;" src="right-arrow.gif" /> 
 </p>
 <div class="work_sample_group">
     <div class="work_sample">
@@ -68,7 +70,7 @@
 <h3>Brand Marketing</h3>
 <p class="description">Made branding site for 45R USA as the landing page for the global market.<br /><br />
     <img style="width: 20px; height: 20px; position: relative; top: 4px;" src="left-arrow.gif" /> 
-    <a title="click to open in this window" href="digital-production.php#website_productions">Check Web Production Work Samples</a>
+    <a title="click to open in this window" href="digital-production.php#website_productions" target="_blank">Check Web Production Work Samples</a>
     <img style="width: 20px; height: 20px; position: relative; top: 4px;" src="right-arrow.gif" /> 
 </p>
 
