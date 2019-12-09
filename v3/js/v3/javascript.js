@@ -6,11 +6,10 @@ var projectModalContent = document.querySelector("#project-modal-content");
 function openModal(){
     document.querySelector(".modal").style.display = "block";
 
-    for(var i = 0; i < menu.length; i++){
-        modalContent.innerHTML += menu[i].innerHTML + subMenu[i].innerHTML;
-    };
+    for(var i = 0; i < menu.length; i++){    
+        modalContent.innerHTML += "<div style='text-transform: uppercase;'>" + menu[i].innerHTML + "</div>" + "<font size = '3px'>" + subMenu[i].innerHTML + "</font><br />";
+    };    
 };
-
 
 function closeModal(){
     document.querySelector(".modal").style.display = "none";

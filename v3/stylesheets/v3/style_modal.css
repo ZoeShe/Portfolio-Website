@@ -126,6 +126,7 @@ video:focus {
 }
 
 @media only screen and (max-width: 550px) {
+
     .work_sample_group{
         flex-wrap: wrap;
     }
