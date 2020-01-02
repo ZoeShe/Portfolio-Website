@@ -101,6 +101,7 @@ button:hover{
   border: 3px white solid;
   margin: 5px auto;
   background-color: grey;
+  padding: 0;
 }
 .easy{
   height: 14px;
@@ -110,10 +111,10 @@ button:hover{
   padding: 0;
   color: white;
   font-weight: 300;
-  bottom: 1px;
+  /* bottom: 1px; */
   position: relative;
   /* below changes when switch */
-  right: 7px;
+  /* right: 7px; */
   float: left;
 }
 .hard{
@@ -124,10 +125,10 @@ button:hover{
   padding: 0;
   color: white;
   font-weight: 300;
-  bottom: 1px;
+  /* bottom: 1px; */
   position: relative;
   /* below changes when switch */
-  left: 7px;
+  /* left: 7px; */
   float: right;
 }
 .start{
@@ -142,6 +143,7 @@ button:hover{
   font-weight: 500;
   border: none;
   margin: 5px auto;
+  text-align: center;
 }
 
 .reset{
@@ -157,6 +159,7 @@ button:hover{
   font-weight: 500;
   border: none;
   margin: 5px auto;
+  text-align: center;
 }
 
 /* counter area */
@@ -170,6 +173,8 @@ button:hover{
 
 /* Next Button */
 .next{
+  display: inline-block;
+  text-align: center;
   width: 60px;
   height: 60px;
   border-radius: 10px;
@@ -180,9 +185,12 @@ button:hover{
   font-weight: 500;
   font-size: 1rem;
   text-shadow:0px 1px 0px #ffffff;
+  padding: 0;
 }
 
 .finish{
+  display: inline-block;
+  text-align: center;
   width: 60px;
   height: 60px;
   border-radius: 10px;
@@ -193,6 +201,7 @@ button:hover{
   font-weight: 300;
   font-size: 1rem;
   text-shadow:0px 1px 0px #ffffff;
+  padding: 0;
 }
 
 /* Display Bar */
@@ -221,6 +230,8 @@ button:hover{
   font-size: 1.5rem;
   text-shadow:0px 1px 0px #ffffff;
   text-align: center;
+  display: inline-block;
+  padding: 0;
 }
 #clear{
   background-color: pink;
@@ -229,6 +240,7 @@ button:hover{
   border: none;
   text-shadow: none;
   font-weight: 500;
+  font-size: 1.2rem;
   /* opacity: ; */
 }
 #equal{
@@ -243,13 +255,13 @@ button:hover{
 
 @media only screen and (max-width: 915px) {
   #message-outer-box{
-    width: 70%;
+    width: 80%;
   }
   .game-description{
-    width: 70%;
+    width: 80%;
   }
   .game-frame{
-    width: 70%;
+    width: 80%;
   }
   .game-section{
     flex-basis: 100%;
@@ -263,6 +275,7 @@ button:hover{
   #equal{
     height: 70px;
   }
+
 }
 
 
@@ -276,4 +289,21 @@ button:hover{
   .game-frame{
     width: 100%;
   }
+  .operator-button{
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+  #equal{
+    height: 60px;
+  }
+  .next, .finished{
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+  }
+  #solved-title, .counter-section{
+    font-size: 1rem;
+  }
 }
+
