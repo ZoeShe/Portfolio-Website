@@ -1,0 +1,161 @@
+<!-- BO CSS -->
+<link rel="stylesheet" href="stylesheets/v4/style_modal.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/v4/maths24.css">
+<script src="https://kit.fontawesome.com/f8893af342.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto:300,500&display=swap" rel="stylesheet">
+<!-- EO CSS -->
+<script src="js/v4/maths24.js" defer></script>
+<div class="main">
+<h1>Maths24</h1>
+<!-- <h2>Game Introduction</h2> -->
+<h3 class="game-description">
+  Maths24 is an old Shanghainese poker game played since 1960. 
+  The goal is to get the result of 24 by operating 4 integers with elementary operators. 
+  J, Q and K stand for number 11, 12 and 13. 
+  Each card must be used once and only once. 
+  The game ends when the deck of cards is dealt. 
+</h3>
+<!-- message box -->
+<div id="message-outer-box">
+  <p id="message-box">
+    <span id="message">Dummy</span>
+    <span id="message-yes" type="button"></span>
+    <span id="message-no" type="button"></span>
+  </p>
+</div>
+<!-- game box -->
+<div class="game-frame">
+  <!-- poker cards area -->
+  <div class="game-section">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td class="card-td">
+            <button class="card-btn calc" id="card-1" onclick="click2();">
+                <img class="card-img" id="card-1-img" src="media/maths24/img/0-back-2.png" alt="">
+            </button>
+          </td>
+          <td class="card-td">
+            <button class="card-btn calc" id="card-2" onclick="click2();">
+                <img class="card-img" id="card-2-img" src="media/maths24/img/0-back-2.png" alt="">
+            </button>
+          </td>
+          <td class="card-td">
+            <button class="card-btn calc" id="card-3" onclick="click2();">
+                <img class="card-img" id="card-3-img" src="media/maths24/img/0-back-2.png" alt="">
+            </button>
+          </td>
+          <td class="card-td">
+            <button class="card-btn calc" id="card-4" onclick="click2();">
+                <img class="card-img" id="card-4-img" src="media/maths24/img/0-back-2.png" alt="">
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- operator area -->
+  <div class="game-section">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <!-- solved title -->
+          <td class="operator-td" id="solved-title" colspan="2">SOLVED</td class="operator-td">
+          <!-- difficulty & deal -->
+          <td class="operator-td" id="difficulty-section"colspan="2" rowspan="2">
+            <button id="difficulty" onclick="click1();">
+              <div id="switcher" class="easy">EASY</div>
+            </button>
+            <button id="start" class="start" onclick="click1();">START</button>
+          </td>
+          <!-- counter  -->
+          <td class="operator-td counter-section" colspan="2" rowspan="2">
+            <div id="card-number-counter"><span id="counter-number">40</span> cards left</div>
+            <div id="timer-box">TIME: <span id="timer">00'00"</span></div>
+          </td>
+          <!-- Pass  -->
+          <td class="operator-td last-column" colspan="2" rowspan="2">
+            <button id="next" class="next" onclick="click1();">NEXT</button>
+          </td>
+        </tr>
+        <tr>
+          <!-- solved display -->
+          <td id="solved" colspan="2">0</td>
+        </tr>
+        <tr>
+          <!-- display bar -->
+          <td colspan="7">
+            <input id="display" type="text" value ="" disabled>
+          </td>
+          <td class="last-column" rowspan="2">
+            <!-- equal button -->
+            <button class="operator-button last-column" id="equal" value="" 
+            onclick="click1();">=</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="operator-button operator-btn calc" id="add" value="+" onclick="click2();">+</button>
+          </td>
+          <td>
+            <button class="operator-button operator-btn calc" id="subtract" value="-" onclick="click2();">-</button>
+          </td>
+          <td>
+            <button class="operator-button operator-btn calc" id="multiply" value="*" onclick="click2();">&times;</button>
+          </td>
+          <td>
+            <button class="operator-button operator-btn calc" id="divide" value="/" onclick="click2();">&divide;</button>
+          </td>
+          <td>
+            <button class="operator-button calc" id="l-rkt" value="(" onclick="click2();">(</button>
+          </td>
+          <td>
+            <button class="operator-button calc" id="r-rkt" value=")" onclick="click2();">)</button>
+          </td>
+          <td>
+            <button class="operator-button" id="clear" value="" onclick="click2();">
+             AC
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>
+
+<!-- mouse sound effect -->
+<audio id="click-1">
+  <source src="media/maths24/sound/1.wav" type="audio/wav"></source>
+</audio>
+<audio id="click-2">
+  <source src="media/maths24/sound/2.mp3" type="audio/mp3"></source>
+</audio>
+<audio id="bingo">
+  <source src="media/maths24/sound/bingo.mp3" type="audio/mp3"></source>
+</audio>
+<audio id="error">
+  <source src="media/maths24/sound/error.mp3" type="audio/mp3"></source>
+</audio>
+<audio id="well-done">
+  <source src="media/maths24/sound/well-done.wav" type="audio/wav"></source>
+</audio>
+<script>
+function click1(){
+  document.querySelector('#click-1').play();
+}
+function click2(){
+  document.querySelector('#click-2').play();
+}
+function wellDone(){
+  document.querySelector('#well-done').play();
+}
+function clickBingo(){
+  document.querySelector('#bingo').play();
+}
+function clickError(){
+  document.querySelector('#error').playbackRate = 1.5;
+  document.querySelector('#error').play();
+  return;
+}
+</script>
