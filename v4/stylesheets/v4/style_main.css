@@ -8,7 +8,8 @@ html{
     font-size: 14px;
     color: #434343;
     /* background-color: #FFFEF9; */
-    --top-spacing: 110px;
+    /* --top-spacing: 110px; */
+    /* margin-top: 110px; */
     scroll-padding-top: 110px;
 }
 
@@ -94,21 +95,36 @@ body{
     margin: 0 auto;
     width: 80%;
 }
+
 .projects{
+    margin-top: calc(50px + 20px * 2); 
+    margin-bottom: calc(80px + 15px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    min-height: calc(100vh - 185px);
+    /* overflow: scroll; */
+}
+
+/* .projects{
     margin-top:70px; 
     margin-bottom: 80px;
     padding-top: calc(50vh - 350px);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* padding-top: 10px; */
-    
-}
+    /* padding-top: 10px;
+} */
+
 .project{
+    height: auto;
     flex: 30% 1 0;
     text-align: center;
     display: flex;
     flex-direction: column;
+    align-self: center;
+    justify-content: center;
 }
 
 .project-title{
@@ -160,7 +176,8 @@ body{
     width: 80%;
     height: 80vh;
     position: fixed;
-    top: 70px;
+    top: calc(50px + 20px * 2);
+    /* top: 70px; */
     left: 10%;
 }
 
@@ -274,9 +291,9 @@ video:focus {
 
 
 @media only screen and (max-width: 1024px) {
-    .projects{
+    /* .projects{
         padding-top: calc(50vh - 290px);
-    }
+    } */
 
     .work_sample_group{
         flex-wrap: wrap;
@@ -362,9 +379,9 @@ video:focus {
         display: none;
     }
     .projects{
-        padding-top: 30px;
+        /* padding-top: 30px; */
         flex-flow: wrap;
-        padding-bottom: 150px;
+        /* padding-bottom: 150px; */
     }
     .project{
         flex: 90% 1 1;

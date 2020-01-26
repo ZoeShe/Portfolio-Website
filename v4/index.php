@@ -1,4 +1,6 @@
 <?php include("header.html"); ?>
+<div class = "projects-outer-box">
+
 <div class="projects">
     <div class="project" type="button" id="maths24" onClick="openProject(this.id);">
         <p class="project-summary"><span class="project-title">Maths24</span>
@@ -21,6 +23,7 @@
         </p>
         <div><img class="project-pic" src="media/roland-0.png" alt="Roland DG Fab12 Project" /></div>
     </div>
-
 </div>
+</div>
+
 <?php include("footer.html"); ?>

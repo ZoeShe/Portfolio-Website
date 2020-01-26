@@ -1,0 +1,307 @@
+/* message box */
+#message-outer-box{
+  display: inline-block;
+  height: 25px;
+  width: 800px;
+}
+
+#message-box{
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+  color: black;
+  background-color: palegoldenrod;;
+  font-weight: 500;
+  font-size: 2rem;
+  display: none;
+
+}
+
+#message-yes, #message-no{
+  color:black;
+}
+
+#message-yes:hover, #message-no:hover{
+  color: white;
+  cursor: pointer;
+}
+
+/* game frame style */
+.game-description{
+  width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+}
+.game-frame{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.game-section{
+  flex-basis: 48%;
+  flex-grow: 0;
+  flex-shrink: 1;
+  margin-top: 20px;
+  align-self: center
+}
+button{
+  outline: none; 
+}
+button:hover{
+  cursor:pointer;
+  opacity: 0.8;
+  color: white;
+}
+
+/* poker card area style */
+.card-td, .operator-td{
+  width: 25%;
+}
+#card-1, #card-2, #card-3, #card-4{
+  background: none;
+  border: none;
+  margin-top: 5px;
+  padding: 5px;
+}
+#card-1-img, #card-2-img, #card-3-img, #card-4-img{
+  width: 100%;
+}
+
+/* operator area style */
+.last-column{
+  text-align: right;
+  vertical-align: bottom;
+}
+
+/* solved area */
+#solved-title{
+  font-weight: 500;
+  text-align: center;
+}
+#solved{
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding: 0;
+  text-align: center;
+}
+
+/* difficulty & deal area */
+#difficulty-section{
+  text-align: center;
+}
+#difficulty{
+  height: 20px;
+  width: 80%;
+  border-radius: 10px;
+  background: none;
+  display: block;
+  border: 3px white solid;
+  margin: 5px auto;
+  background-color: grey;
+  padding: 0;
+}
+.easy{
+  height: 14px;
+  width: 70%;
+  border-radius: 7px;
+  background: black;
+  padding: 0;
+  color: white;
+  font-weight: 300;
+  /* bottom: 1px; */
+  position: relative;
+  /* below changes when switch */
+  /* right: 7px; */
+  float: left;
+}
+.hard{
+  height: 14px;
+  width: 70%;
+  border-radius: 7px;
+  background: black;
+  padding: 0;
+  color: white;
+  font-weight: 300;
+  /* bottom: 1px; */
+  position: relative;
+  /* below changes when switch */
+  /* left: 7px; */
+  float: right;
+}
+.start{
+  font-size: 1rem;
+  height: 20px;
+  width: 80%;
+  border-radius: 10px;
+  background-color: crimson;
+  background:linear-gradient(to bottom, crimson 5%, darkred 100%);
+  border: 1px grey solid;
+  color: white;
+  font-weight: 500;
+  border: none;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.reset{
+  font-size: 1rem;
+  height: 20px;
+  width: 80%;
+  border-radius: 10px;
+  background-color: white;
+  background:linear-gradient(to bottom, #ffffff 5%, #cccccc 100%);
+  border: 1px grey solid;
+  color: black;
+  text-shadow:0px 1px 0px #ffffff;
+  font-weight: 500;
+  border: none;
+  margin: 5px auto;
+  text-align: center;
+}
+
+/* counter area */
+.counter-section{
+  text-align: right;
+}
+
+#counter-number, #solved, #timer{
+  color: palegoldenrod;
+}
+
+/* Next Button */
+.next{
+  display: inline-block;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: white;
+  background:linear-gradient(to bottom, #ffffff 5%, #cccccc 100%);
+  border: 1px grey solid;
+  color: black;
+  font-weight: 500;
+  font-size: 1rem;
+  text-shadow:0px 1px 0px #ffffff;
+  padding: 0;
+}
+
+.finish{
+  display: inline-block;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: crimson;
+  background:linear-gradient(to bottom, crimson 5%, darkred 100%);
+  border: 1px grey solid;
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+  text-shadow:0px 1px 0px #ffffff;
+  padding: 0;
+}
+
+/* Display Bar */
+#display{
+  width: calc(100% - 15px);
+  margin: 5px;
+  height: 25px;
+  float: left;
+  border-radius: 2px;
+  color: black;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+/* Operator Buttons */
+.operator-button{
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: lightgray;
+  background:linear-gradient(to bottom, lightgray 5%, #cccccc 100%);
+  border: 1px grey solid;
+  color: black;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-shadow:0px 1px 0px #ffffff;
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+}
+#clear{
+  background-color: pink;
+  background:linear-gradient(to bottom,  pink 5%, pink 100%);
+  /* color: black; */
+  border: none;
+  text-shadow: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+  /* opacity: ; */
+}
+#equal{
+  height: 60px;
+  background-color: deepskyblue;
+  background:linear-gradient(to bottom,  deepskyblue 5%, dodgerblue 100%);
+  color: white;
+  border: none;
+  text-shadow: none;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 915px) {
+  #message-outer-box{
+    width: 80%;
+  }
+  .game-description{
+    width: 80%;
+  }
+  .game-frame{
+    width: 80%;
+  }
+  .game-section{
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+  .operator-button{
+    width: 50px;
+    height: 50px;
+  }
+  #equal{
+    height: 70px;
+  }
+}
+
+
+@media only screen and (max-width: 550px) {
+  #message-outer-box{
+    width: 100%;
+  }
+  .game-description{
+    width: 100%;
+  }
+  .game-frame{
+    width: 100%;
+  }
+  .operator-button{
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+  #equal{
+    height: 60px;
+  }
+  .next, .finished{
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+  }
+  #solved-title, .counter-section{
+    font-size: 1rem;
+  }
+}

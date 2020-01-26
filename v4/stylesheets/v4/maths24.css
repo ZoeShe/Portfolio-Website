@@ -215,6 +215,8 @@ button:hover{
   font-weight: 500;
   font-size: 1.5rem;
   text-align: right;
+  padding: 0;
+  background-color: white;
 }
 
 /* Operator Buttons */
@@ -305,5 +307,9 @@ button:hover{
   #solved-title, .counter-section{
     font-size: 1rem;
   }
+  #display{
+    margin: 0;
+    font-weight: 300;
+    font-size: 1rem;
+  }
 }
-
